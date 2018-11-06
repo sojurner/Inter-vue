@@ -12,7 +12,7 @@ Example:
 {startTIme: 6, endTime: 9}  (meeting from 12:00 - 1:30 pm)
 ```
 
-######Write a function mergeRanges() that takes an array of multiple meeting time ranges and returns an array of condensed ranges.
+###### Write a function mergeRanges() that takes an array of multiple meeting time ranges and returns an array of condensed ranges.
 
 ```
 Given:
