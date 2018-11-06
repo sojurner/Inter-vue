@@ -31,9 +31,11 @@ _n_ = number of nodes
 _h_ = number of levels
 
 _Total # of Nodes:_
+
 ![screen shot 2018-11-06 at 11 15 07 am](https://user-images.githubusercontent.com/35910428/48084562-4d7a7000-e1b5-11e8-8f2c-bf2ee182b475.png)
 
 _Equation:_
+
 ![image](https://user-images.githubusercontent.com/35910428/48085033-73ecdb00-e1b6-11e8-9c99-6d2920ad9bf1.png)
 
 ###### Getting number of Levels
