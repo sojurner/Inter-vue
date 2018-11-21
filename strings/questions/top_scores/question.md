@@ -5,7 +5,7 @@
 
 ###### and returns a sorted array of scores.
 
-functions should take less than `O(nlgn)` time.
+function should take less than `O(nlgn)` time.
 
 ###### Example:
 
