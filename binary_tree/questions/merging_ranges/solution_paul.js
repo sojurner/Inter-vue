@@ -1,5 +1,5 @@
 const mergeRanges = arr => {
-  const meetingsArray = JSON.parse(JSON.stringify(meetings));
+  const meetingsCopy = JSON.parse(JSON.stringify(meetings));
 
   const sortedMeetings = meetingsCopy.sort((a, b) => {
     return a.startTime - b.startTime;
@@ -7,8 +7,8 @@ const mergeRanges = arr => {
 
   const mergedMeetings = [sortedMeetings[0]];
 
-  for (let i = 1; 1 < sortedMeetings; i++) {
-    const currentMeeting = sortedMeeting[i];
+  for (let i = 1; i < sortedMeetings; i++) {
+    const currentMeeting = sortedMeetings[i];
     const lastMergedMeeting = mergedMeetings[mergedMeetings.length - 1];
 
     if (currentMeeting.startTime <= lastMergedMeeting.endTime) {
