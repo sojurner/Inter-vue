@@ -1,4 +1,4 @@
-## Write a function that takes an array of characters and reverses the letters in place.
+## Write a function that takes an array of characters and reverses the letters in-place.
 
 ##### An in-place algorithm operates directly on its input and changes it, instead of creating and returning a new object. This is sometimes called destructive, since the original input is "destroyed" when it's edited to create the new output.
 
