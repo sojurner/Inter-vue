@@ -28,3 +28,14 @@ Organizes data to look up values for a given key.
 - takes data and outputs a fixed-size string or number
 - Can be seen as a fingerprint
 - a given file will always have a same hash but can't go from has bakc to the original file
+
+###### Hash collisions:
+
+- when two keys hash to the same index in an array:
+  - example:
+
+```
+" L I E S "
+
+" F O E S "
+```
