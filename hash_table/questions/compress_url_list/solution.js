@@ -1,5 +1,4 @@
 // Use a trie
-
 class Trie {
   constructor() {
     this.rootNode = {};
@@ -27,3 +26,6 @@ class Trie {
     return isNewWord;
   }
 }
+
+// complexity:
+// O(n26^n)
