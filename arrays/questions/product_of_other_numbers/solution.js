@@ -4,15 +4,15 @@ const arrayProduct = array => {
   }
 
   const finalArrayProducts = [];
-  let initialVal = 1;
   // calculating product of integers before
+  let initialVal = 1;
   for (let i = 0; i < array.length; i++) {
     finalArrayProducts[i] = initialVal;
     initialVal *= array[i];
   }
 
-  initialVal = 1;
   // calculating product of integers after
+  initialVal = 1;
   for (let j = intArray.length - 1; j >= 0; j--) {
     finalArrayProducts[j] *= initialVal;
     initialVal *= array[j];
