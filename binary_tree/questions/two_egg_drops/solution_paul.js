@@ -11,10 +11,10 @@ const findFloor = () => {
 
   if (floorToFind < currentFloor) {
     currentFloor -= Math.floor(currentFloor / (n - 1)) - n;
+  }
 
-    while (currentFloor < floorToFind) {
-      currentFloor++;
-    }
+  while (currentFloor < floorToFind) {
+    currentFloor++;
   }
 
   return currentFloor;
