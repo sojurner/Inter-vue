@@ -1,8 +1,15 @@
-function numberOfWays(amount, denominations){
-  let answer =0;
+function numberOfWays(amount, denominations) {
+  const waysOfDoing = new Array(amount + 1).fill(0);
+  waysOfDoing[0] = 1;
   denominations.forEach(denomination => {
-    possibleTimesWithoutOvershooting.forEach(numTimes => {
-      answer += numberOfWays(amountRemaining)
-    })
-  })
+    for (
+      let higherAmount = denomination;
+      higherAmount <= amount;
+      higherAmount++
+    ) {
+      const higherAmountRemaining = higherAmount - denomination;
+      waysOfDoing[higherAmount] += waysOfDoing[higherAmountRemaining];
+    }
+    return waysOfDoing[amount];
+  });
 }
